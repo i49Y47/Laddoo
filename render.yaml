@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: laddoo-checker
+    env: python
+    buildCommand: "pip install requests"
+    startCommand: "python Laddoo.py"
+    autoDeploy: true
+    branch: main  # specify your default branch
