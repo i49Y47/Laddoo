@@ -1,5 +1,5 @@
 services:
-  - type: web
+  - type: worker
     name: laddoo-checker
     env: python
     buildCommand: "pip install requests"
